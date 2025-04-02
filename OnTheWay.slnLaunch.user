@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "OnTheWay\\OnTheWayPrj.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "OnTheWayWebApiProject\\OnTheWayWebApiProject.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
