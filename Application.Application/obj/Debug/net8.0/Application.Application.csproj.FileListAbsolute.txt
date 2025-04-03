@@ -1,0 +1,17 @@
+D:\KrishnaB\OnTheWay\Application.Application\bin\Debug\net8.0\Application.Application.deps.json
+D:\KrishnaB\OnTheWay\Application.Application\bin\Debug\net8.0\Application.Application.dll
+D:\KrishnaB\OnTheWay\Application.Application\bin\Debug\net8.0\Application.Application.pdb
+D:\KrishnaB\OnTheWay\Application.Application\bin\Debug\net8.0\Application.Domain.dll
+D:\KrishnaB\OnTheWay\Application.Application\bin\Debug\net8.0\Application.Infrastructure.dll
+D:\KrishnaB\OnTheWay\Application.Application\bin\Debug\net8.0\Application.Infrastructure.pdb
+D:\KrishnaB\OnTheWay\Application.Application\bin\Debug\net8.0\Application.Domain.pdb
+D:\KrishnaB\OnTheWay\Application.Application\obj\Debug\net8.0\Application.Application.csproj.AssemblyReference.cache
+D:\KrishnaB\OnTheWay\Application.Application\obj\Debug\net8.0\Application.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\KrishnaB\OnTheWay\Application.Application\obj\Debug\net8.0\Application.Application.AssemblyInfoInputs.cache
+D:\KrishnaB\OnTheWay\Application.Application\obj\Debug\net8.0\Application.Application.AssemblyInfo.cs
+D:\KrishnaB\OnTheWay\Application.Application\obj\Debug\net8.0\Application.Application.csproj.CoreCompileInputs.cache
+D:\KrishnaB\OnTheWay\Application.Application\obj\Debug\net8.0\Applicat.5CB807CE.Up2Date
+D:\KrishnaB\OnTheWay\Application.Application\obj\Debug\net8.0\Application.Application.dll
+D:\KrishnaB\OnTheWay\Application.Application\obj\Debug\net8.0\refint\Application.Application.dll
+D:\KrishnaB\OnTheWay\Application.Application\obj\Debug\net8.0\Application.Application.pdb
+D:\KrishnaB\OnTheWay\Application.Application\obj\Debug\net8.0\ref\Application.Application.dll

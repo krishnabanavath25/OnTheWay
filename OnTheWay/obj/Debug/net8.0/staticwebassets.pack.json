@@ -1,0 +1,349 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnTheWayPrj.bundle.scp.css",
+      "PackagePath": "staticwebassets\\OnTheWayPrj.nfbl0ytepi.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\2aedd25f-b1e4-4dbf-98c9-1b32fa17648b_charminar.jpg",
+      "PackagePath": "staticwebassets\\images\\2aedd25f-b1e4-4dbf-98c9-1b32fa17648b_charminar.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\8508f33a-64a3-4e9d-9ba4-ad5d8afef0e8_birlamandhir.jpg",
+      "PackagePath": "staticwebassets\\images\\8508f33a-64a3-4e9d-9ba4-ad5d8afef0e8_birlamandhir.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\9dc02f0a-330a-4c5a-9b16-a6d580c85e12_chicken1.jpg",
+      "PackagePath": "staticwebassets\\images\\9dc02f0a-330a-4c5a-9b16-a6d580c85e12_chicken1.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\RGI.jfif",
+      "PackagePath": "staticwebassets\\images\\RGI.jfif"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\Tirupati_Airport_View.jpg",
+      "PackagePath": "staticwebassets\\images\\Tirupati_Airport_View.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\air.jpg",
+      "PackagePath": "staticwebassets\\images\\air.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\air2.jpg",
+      "PackagePath": "staticwebassets\\images\\air2.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\air3.jpg",
+      "PackagePath": "staticwebassets\\images\\air3.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\air5.jpg",
+      "PackagePath": "staticwebassets\\images\\air5.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\airo.jpg",
+      "PackagePath": "staticwebassets\\images\\airo.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\airo1.jpg",
+      "PackagePath": "staticwebassets\\images\\airo1.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\airo4.jpg",
+      "PackagePath": "staticwebassets\\images\\airo4.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\bajaj.jpg",
+      "PackagePath": "staticwebassets\\images\\bajaj.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\begumpet.jfif",
+      "PackagePath": "staticwebassets\\images\\begumpet.jfif"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\bike2.jpg",
+      "PackagePath": "staticwebassets\\images\\bike2.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\birlamandhir.jpg",
+      "PackagePath": "staticwebassets\\images\\birlamandhir.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\charminar.jpg",
+      "PackagePath": "staticwebassets\\images\\charminar.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\download (2).jpg",
+      "PackagePath": "staticwebassets\\images\\download (2).jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\f1163c1d-6442-4dad-83e3-ff329e8cf735_RGI.jfif",
+      "PackagePath": "staticwebassets\\images\\f1163c1d-6442-4dad-83e3-ff329e8cf735_RGI.jfif"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\images\\foodimg6.jpg",
+      "PackagePath": "staticwebassets\\images\\foodimg6.jpg"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\KrishnaB\\OnTheWay\\OnTheWay\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OnTheWayPrj.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OnTheWayPrj.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OnTheWayPrj.props",
+      "PackagePath": "build\\OnTheWayPrj.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OnTheWayPrj.props",
+      "PackagePath": "buildMultiTargeting\\OnTheWayPrj.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OnTheWayPrj.props",
+      "PackagePath": "buildTransitive\\OnTheWayPrj.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

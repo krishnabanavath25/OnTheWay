@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Application.Domain.Entities.FlightInfo>
+
+@{
+    ViewData["Title"] = "Flight Information";
+}
+<div class="bg-image">
+
+
+    <h2>Flight Information</h2>
+
+<p>
+    <a href="~/FlightInfo/Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table" >
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FlightNumber)</th>
+            <th>@Html.DisplayNameFor(model => model.Airline)</th>
+                <th>@Html.DisplayNameFor(model => model.Departure) From</th>
+            <th>@Html.DisplayNameFor(model => model.Arrival) To</th>
+            <th>@Html.DisplayNameFor(model => model.DepartureTime)</th>
+            <th>@Html.DisplayNameFor(model => model.ArrivalTime)</th>
+            <th>@Html.DisplayNameFor(model => model.Price)</th>
+            <th>Action(Edit/Delete)</th>
+        </tr>
+    </thead>
+    <tbody id="tbody">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.FlightNumber)</td>
+                <td>@Html.DisplayFor(modelItem => item.Airline)</td>
+                <td>@Html.DisplayFor(modelItem => item.Departure)</td>
+                <td>@Html.DisplayFor(modelItem => item.Arrival)</td>
+                <td>@Html.DisplayFor(modelItem => item.DepartureTime)</td>
+                <td>@Html.DisplayFor(modelItem => item.ArrivalTime)</td>
+                <td>@Html.DisplayFor(modelItem => item.Price)</td>
+               
+                <td>
+                    <a asp-action="Edit" asp-controller="FlightInfo" asp-route-id="@item.Id" class="btn btn-warning">Edit</a> |
+
+                    <a href="~/FlightInfo/Delete/@item.Id" class="btn btn-danger"> Delete</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>

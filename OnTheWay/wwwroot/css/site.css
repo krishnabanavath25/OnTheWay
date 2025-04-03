@@ -1,0 +1,56 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#header {
+    background-color:cornflowerblue; 
+    padding: 15px;
+    border-radius: 5px;
+   
+}
+    #header .nav-link {
+        color: white;
+    }
+
+.bg-image {
+    background-image: url('/images/air5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+    width:180vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:mediumblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+#tbody{
+    color: yellow;
+}
+#thead {
+    color: mediumblue;
+}
+#deleteForm {
+    color: black;
+}

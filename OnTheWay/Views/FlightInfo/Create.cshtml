@@ -1,0 +1,88 @@
+﻿@model Application.Domain.Entities.FlightInfo
+<div class="bg-image">
+
+
+<h2>Create new Flight Information</h2>
+
+<form id="createForm" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="FlightNumber"></label>
+        <input asp-for="FlightNumber" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Airline"></label>
+        <input asp-for="Airline" class="form-control" />
+    </div>
+        <div class="form-group">
+            <label asp-for="Departure ">Departure From</label>
+            <input asp-for="Departure" class="form-control" />
+        </div>
+    <div class="form-group">
+            <label asp-for="Arrival">Arrival To</label>
+        <input asp-for="Arrival" class="form-control" />
+    </div>
+   
+    <div class="form-group">
+        <label asp-for="DepartureTime"></label>
+        <input asp-for="DepartureTime" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ArrivalTime"></label>
+        <input asp-for="ArrivalTime" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+        <div class="form-group">
+            <label asp-for="AirportInfoId" class="control-label">Airport</label>
+            <select asp-for="AirportInfoId" class="form-control">
+                <option value="">--Select Airport--</option>
+                @foreach (var airport in ViewBag.Airports)
+                {
+                    <option value="@airport.Id">@airport.AirportName</option>
+                }
+            </select>
+        </div>
+    <div class="form-group">
+        <input type="hidden" asp-for="CreatedOn" class="form-control" />
+@*         <input type="hidden" asp-for="UpdatedOn" class="form-control" />
+ *@        <input type="hidden" asp-for="Status" class="form-control" />
+    </div>
+
+    <br />
+    <button type="button" onclick="submitForm()" class="btn btn-primary">Create</button>
+    <a asp-controller="AirportInfoApi" asp-action="Index">Back to List</a>
+
+</form>
+</div>
+<script>
+    function submitForm() {
+        // Create FormData object
+        const formData = new FormData();
+
+        // Append form fields
+        formData.append("FlightNumber", document.querySelector('[name="FlightNumber"]').value);
+        formData.append("Airline", document.querySelector('[name="Airline"]').value);
+        formData.append("Arrival", document.querySelector('[name="Arrival"]').value);
+        formData.append("Departure", document.querySelector('[name="Departure"]').value);
+        formData.append("DepartureTime", document.querySelector('[name="DepartureTime"]').value);
+        formData.append("ArrivalTime", document.querySelector('[name="ArrivalTime"]').value);
+        formData.append("Price", document.querySelector('[name="Price"]').value);
+        formData.append("AirportInfoId", document.querySelector('[name="AirportInfoId"]').value);
+
+        // Send the request with FormData
+        fetch('/FlightInfo/Create', {
+            method: 'POST',
+            body: formData  // Let FormData handle Content-Type
+        })
+            .then(response => {
+                if (response.ok) {
+                    window.location.href = '/FlightInfo/Index';
+                } else {
+                    console.error('Error:', response.statusText);
+                }
+            })
+            .catch(error => console.error('Fetch error:', error));
+    }
+</script>

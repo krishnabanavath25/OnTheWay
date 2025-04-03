@@ -1,0 +1,17 @@
+D:\KrishnaB\OnTheWay\Application.Infrastructure\bin\Debug\net8.0\Application.Infrastructure.deps.json
+D:\KrishnaB\OnTheWay\Application.Infrastructure\bin\Debug\net8.0\Application.Infrastructure.runtimeconfig.json
+D:\KrishnaB\OnTheWay\Application.Infrastructure\bin\Debug\net8.0\Application.Infrastructure.dll
+D:\KrishnaB\OnTheWay\Application.Infrastructure\bin\Debug\net8.0\Application.Infrastructure.pdb
+D:\KrishnaB\OnTheWay\Application.Infrastructure\bin\Debug\net8.0\Application.Domain.dll
+D:\KrishnaB\OnTheWay\Application.Infrastructure\bin\Debug\net8.0\Application.Domain.pdb
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\Application.Infrastructure.csproj.AssemblyReference.cache
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\Application.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\Application.Infrastructure.AssemblyInfoInputs.cache
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\Application.Infrastructure.AssemblyInfo.cs
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\Application.Infrastructure.csproj.CoreCompileInputs.cache
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\Applicat.CAD867DE.Up2Date
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\Application.Infrastructure.dll
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\refint\Application.Infrastructure.dll
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\Application.Infrastructure.pdb
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\Application.Infrastructure.genruntimeconfig.cache
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\ref\Application.Infrastructure.dll

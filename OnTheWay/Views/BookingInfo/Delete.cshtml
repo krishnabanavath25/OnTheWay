@@ -1,0 +1,95 @@
+﻿@model Application.Domain.Entities.BookingInfo
+@{
+    ViewData["Title"] = "Confirm Delete";
+}
+<div class="bg-image">
+
+
+    <h2>Confirm Delete</h2>
+    <p class="text-danger">Are you sure you want to delete the following Booking information?</p>
+
+    <form id="deleteForm" method="post" >
+        <div>
+            <dl class="dl-horizontal">
+                <dt>Flight Number</dt>
+                <dd>@Model.PassengerName</dd>
+
+                <dt>Passenger Email</dt>
+                <dd>@Model.PassengerEmail</dd>
+
+                <dt>Booking Date</dt>
+                <dd>@Model.BookingDate</dd>
+
+                <dt>AirLine Name</dt>
+                <dd>@Model.FlightInfo.Airline</dd>
+                <dt>Airport Name</dt>
+                <dd>@Model.AirportInfo.AirportName</dd>
+
+            </dl>
+            <button type="button" onclick="submitForm()" class="btn btn-danger">Yes, Delete</button>
+            <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+<script>
+    function submitForm() {
+        const formData = new FormData();
+        formData.append("Id", "@Model.Id");
+        // formData.append("AirportId", "@Model.AirportInfoId");
+        // formData.append("FlightInfoId", "@Model.FlightInfoId");
+        // formData.append("AirportInfo", "@Model.AirportInfo");
+        // formData.append("FlightInfo", "@Model.FlightInfo");
+        // formData.append("PassengerName", "@Model.PassengerName");
+        // formData.append("PassengerEmail", "@Model.PassengerEmail");
+        // formData.append("BookingDate", "@Model.BookingDate");
+        // formData.append("Status", "@Model.Status");
+
+
+
+        fetch('/BookingInfo/Delete', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => {
+                if (response.ok) {
+                    window.location.href = '/BookingInfo/Index';
+                } else {
+                    console.error('Error:', response.statusText);
+                }
+            })
+            .catch(error => console.error('Fetch error:', error));
+    }
+</script>
+
+
+@* <script>
+    function submitForm() {
+
+      
+        const formData = new FormData();
+        formData.append("Id", "@Model.Id");
+        formData.append("AirportId", "@Model.AirportInfoId");
+        formData.append("FlightInfoId", "@Model.FlightInfoId");
+        formData.append("AirportInfo", "@Model.AirportInfo");
+        formData.append("FlightInfo", "@Model.FlightInfo");
+        formData.append("PassengerName", "@Model.PassengerName");
+        formData.append("PassengerEmail", "@Model.PassengerEmail");
+        formData.append("BookingDate", "@Model.BookingDate");
+        formData.append("Status", "@Model.Status");
+        
+      
+      
+        fetch('/BookingInfo/Delete', {
+            method: 'POST',
+            body: formData  
+        })
+            .then(response => {
+                if (response.ok) {
+                    window.location.href = '/BookingInfo/Index';
+                } else {
+                    console.error('Error:', response.statusText);
+                }
+            })
+            .catch(error => console.error('Fetch error:', error));
+    }
+</script> *@

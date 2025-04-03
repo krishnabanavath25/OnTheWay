@@ -1,0 +1,59 @@
+﻿@model Application.Domain.Entities.FlightInfo
+<div class="bg-image">
+
+
+<h2>Create new Flight Information</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" class="form-control" />
+    <div class="form-group">
+        <label asp-for="FlightNumber"></label>
+        <input asp-for="FlightNumber" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Airline"></label>
+        <input asp-for="Airline" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Arrival"></label>
+        <input asp-for="Arrival" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Departure"></label>
+        <input asp-for="Departure" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="DepartureTime"></label>
+        <input asp-for="DepartureTime" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ArrivalTime"></label>
+        <input asp-for="ArrivalTime" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+        <div class="form-group">
+            <label asp-for="AirportInfoId" class="control-label">Airport</label>
+            <select asp-for="AirportInfoId" class="form-control">
+                <option value="">--Select Airport--</option>
+                @foreach (var airport in ViewBag.Airports)
+                {
+                    <option value="@airport.Id">@airport.AirportName</option>
+                }
+            </select>
+        </div>
+    <div class="form-group">
+        <input type="hidden" asp-for="CreatedOn" class="form-control" />
+                <input type="hidden" asp-for="UpdatedOn" class="form-control" />
+               <input type="hidden" asp-for="Status" class="form-control" />
+    </div>
+
+    <br />
+    <input type="submit" value="Save" class="btn btn-primary" />
+        <a asp-controller="FlightInfo" asp-action="Index">Back to List</a>
+</form>
+<br />
+
+</div>
