@@ -1,0 +1,132 @@
+﻿@model Application.Domain.Entities.BookingInfo
+<div class="bg-image">
+
+
+    <h2>Create new Flight Information</h2>
+
+    <form id="createForm" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="PassengerName"></label>
+            <input asp-for="PassengerName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="PassengerEmail"></label>
+            <input asp-for="PassengerEmail" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="BookingDate "></label>
+            <input asp-for="BookingDate" class="form-control" />
+        </div>
+       @*  <div class="form-group">
+            <label asp-for="FlightInfo.Id"></label>
+            <input asp-for="FlightInfo.Id" class="form-control" />
+        </div> *@
+
+        <div class="form-group">
+            <label asp-for="FlightInfoId" class="control-label">AirLine Name</label>
+            <select asp-for="FlightInfoId" class="form-control" id="flightInfoId">
+                <option value="">--Select Flight--</option>
+                @foreach (var flight in ViewBag.Flights)
+                {
+                  @*   <option value="@flight.Id">@flight.Airline</option> *@
+                    <option value="@flight.Id" data-price="@flight.Price">@flight.Airline</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="AirportInfoId" class="control-label">Airport</label>
+            <select asp-for="AirportInfoId" class="form-control">
+                <option value="">--Select Airport--</option>
+                @foreach (var airport in ViewBag.Airports)
+                {
+                    <option value="@airport.Id">@airport.AirportName</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label asp-for="FlightInfo.Price" class="control-label">Ticket Price:</label>
+            <input asp-for="FlightInfo.Price" class="form-control" readonly name="Price" id="ticketPrice" />
+       </div>
+
+        <div class="form-group">
+            <input type="hidden" asp-for="CreatedOn" class="form-control" />
+          
+                  <input type="hidden" asp-for="Status" class="form-control" />
+        </div>
+
+        <br />
+        <button type="button" onclick="submitForm()" class="btn btn-primary">Create</button>
+        <a asp-controller="AirportInfoApi" asp-action="Index">Back to List</a>
+
+    </form>
+</div>
+@* <script>
+    function submitForm() {
+       
+        const formData = new FormData();
+
+       
+        formData.append("PassengerName", document.querySelector('[name="PassengerName"]').value);
+        formData.append("PassengerEmail", document.querySelector('[name="PassengerEmail"]').value);
+        formData.append("BookingDate", document.querySelector('[name="BookingDate"]').value);
+        formData.append("FlightInfoId", document.querySelector('[name="FlightInfoId"]').value);
+        formData.append("AirportInfoId", document.querySelector('[name="AirportInfoId"]').value);
+        formData.append("Price", document.querySelector('[name="Price"]').value);
+      
+
+       
+        fetch('/BookingInfo/Create', {
+            method: 'POST',
+            body: formData 
+        })
+            .then(response => {
+                if (response.ok) {
+                    window.location.href = '/BookingInfo/Index';
+                } else {
+                    console.error('Error:', response.statusText);
+                }
+            })
+            .catch(error => console.error('Fetch error:', error));
+    }
+</script> *@
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const flightDropdown = document.getElementById('flightInfoId');
+        const ticketPriceInput = document.getElementById('ticketPrice');
+
+        flightDropdown.addEventListener('change', function () {
+            const selectedOption = this.options[this.selectedIndex];
+            const price = selectedOption.getAttribute('data-price');
+
+            if (price) {
+                ticketPriceInput.value = price;
+            } else {
+                ticketPriceInput.value = ''; // Clear price if no flight is selected
+            }
+        });
+    });
+
+    function submitForm() {
+        const formData = new FormData();
+        formData.append("PassengerName", document.querySelector('[name="PassengerName"]').value);
+        formData.append("PassengerEmail", document.querySelector('[name="PassengerEmail"]').value);
+        formData.append("BookingDate", document.querySelector('[name="BookingDate"]').value);
+        formData.append("FlightInfoId", document.querySelector('[name="FlightInfoId"]').value);
+        formData.append("AirportInfoId", document.querySelector('[name="AirportInfoId"]').value);
+        formData.append("Price", document.getElementById("ticketPrice").value); // Get price from the updated input
+
+        fetch('/BookingInfo/Create', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => {
+            if (response.ok) {
+                window.location.href = '/BookingInfo/Index';
+            } else {
+                console.error('Error:', response.statusText);
+            }
+        })
+        .catch(error => console.error('Fetch error:', error));
+    }
+</script>

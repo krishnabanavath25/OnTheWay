@@ -1,0 +1,5 @@
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\Application.InfrastructureLayer.csproj.AssemblyReference.cache
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\Application.InfrastructureLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\Application.InfrastructureLayer.AssemblyInfoInputs.cache
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\Application.InfrastructureLayer.AssemblyInfo.cs
+D:\KrishnaB\OnTheWay\Application.Infrastructure\obj\Debug\net8.0\Application.InfrastructureLayer.csproj.CoreCompileInputs.cache

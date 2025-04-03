@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Application.Domain.Entities.AirportInfo>
+
+@{
+    ViewData["Title"] = "Airport Information";
+}
+<div class="bg-image">
+<h2>Airport Information</h2>
+
+<p>
+    <a href="~/AirportInfoApi/Create" class="btn btn-primary">Create New</a>
+</p>
+
+    <table class="table ">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.AirportName)</th>
+            <th>@Html.DisplayNameFor(model => model.AirportLocation)</th>
+            <th> AirportImage</th>
+            <th>Action(Edit/Delete)</th>
+        </tr>
+    </thead>
+    <tbody id="tbody">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.AirportName)</td>
+                <td>@Html.DisplayFor(modelItem => item.AirportLocation)</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.ImagePath))
+                    {
+                        <img src="@Url.Content($"~/{item.ImagePath}")" alt="Airport Image" style="max-width: 100px; max-height: 100px;" />
+                    }
+                    else
+                    {
+                        <span>No image available</span>
+                    }
+                </td>
+                <td>
+                    @*   <a class="nav-link" asp-controller="Dynamic" asp-action="Index" asp-route-entity="AirportInfoApi">Airports</a *@
+                    <a asp-action="Edit" asp-controller="AirportInfoApi"  asp-route-id="@item.Id" class="btn btn-warning">Edit</a> |
+
+                    <a href="~/AirportInfoApi/Delete/@item.Id"  class="btn btn-danger"> Delete</a>
+
+                 @*    <a asp-action="Delete" asp-controller="AirportInfoApi" asp-route-id="@item.Id" class="btn btn-danger">Delete</a> *@
+               </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>

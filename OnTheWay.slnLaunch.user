@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "Name": "New Profile",
@@ -12,4 +13,20 @@
       }
     ]
   }
+=======
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "OnTheWay\\OnTheWayPrj.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "OnTheWayWebApiProject\\OnTheWayWebApiProject.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+>>>>>>> f0d1221 (main)
 ]

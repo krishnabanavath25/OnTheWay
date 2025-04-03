@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6RRmzgv6X+iGyJV7WskVhO6LKgIoGN7jqE8FkJuyUyc=",
+  "Source": "OnTheWayWebApi",
+  "BasePath": "_content/OnTheWayWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+D:\KrishnaB\OnTheWay\ApplicationDomain\bin\Debug\net8.0\Application.DomainLayer.deps.json
+D:\KrishnaB\OnTheWay\ApplicationDomain\bin\Debug\net8.0\Application.DomainLayer.dll
+D:\KrishnaB\OnTheWay\ApplicationDomain\bin\Debug\net8.0\Application.DomainLayer.pdb
+D:\KrishnaB\OnTheWay\ApplicationDomain\obj\Debug\net8.0\Application.DomainLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\KrishnaB\OnTheWay\ApplicationDomain\obj\Debug\net8.0\Application.DomainLayer.AssemblyInfoInputs.cache
+D:\KrishnaB\OnTheWay\ApplicationDomain\obj\Debug\net8.0\Application.DomainLayer.AssemblyInfo.cs
+D:\KrishnaB\OnTheWay\ApplicationDomain\obj\Debug\net8.0\Application.DomainLayer.csproj.CoreCompileInputs.cache
+D:\KrishnaB\OnTheWay\ApplicationDomain\obj\Debug\net8.0\Application.DomainLayer.dll
+D:\KrishnaB\OnTheWay\ApplicationDomain\obj\Debug\net8.0\refint\Application.DomainLayer.dll
+D:\KrishnaB\OnTheWay\ApplicationDomain\obj\Debug\net8.0\Application.DomainLayer.pdb
+D:\KrishnaB\OnTheWay\ApplicationDomain\obj\Debug\net8.0\ref\Application.DomainLayer.dll

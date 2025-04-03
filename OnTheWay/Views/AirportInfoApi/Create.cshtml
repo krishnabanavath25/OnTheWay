@@ -1,0 +1,146 @@
+﻿@model Application.Domain.Entities.AirportInfo
+
+@* <h2>Create New Airport Info</h2>
+
+<form id="createForm" method="post">
+    <div class="form-group">
+        <label asp-for="AirportName"></label>
+        <input asp-for="AirportName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="AirportLocation"></label>
+        <input asp-for="AirportLocation" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="ImagePath">Upload Image</label>
+        <input type="file" name="ImagePath" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="hidden" asp-for="CreatedOn" class="form-control" />
+        <input type="hidden" asp-for="UpdatedOn" class="form-control" />
+        <input type="hidden" asp-for="Status" class="form-control" />
+    </div>
+
+    <br />
+    <button type="button" onclick="submitForm()" class="btn btn-primary">Create</button>
+</form>
+
+<script>
+    function submitForm() {
+
+
+        const formData = {
+
+            AirportName: document.querySelector('[name="AirportName"]').value,
+            AirportLocation: document.querySelector('[name="AirportLocation"]').value,
+            ImagePath: document.querySelector('[name="ImagePath"]').value,
+
+        };
+
+        fetch('/AirportInfoApi/Create', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+            .then(response => {
+                if (response.ok) {
+                    window.location.href = '/AirportInfoApi/Index';
+                } else {
+                    console.error('Error:', response.statusText);
+                }
+            })
+            .catch(error => console.error('Fetch error:', error));
+    }
+</script>  *@
+<div class="bg-image">
+
+<h2>Create New Airport Info</h2>
+
+<form id="createForm" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="AirportName"></label>
+        <input asp-for="AirportName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="AirportLocation"></label>
+        <input asp-for="AirportLocation" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="ImagePath">Upload Image</label>
+        <input asp-for="ImagePath" type="file" name="ImagePath" id="ImagePath" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="hidden" asp-for="CreatedOn" class="form-control" />
+        <input type="hidden" asp-for="UpdatedOn" class="form-control" />
+        <input type="hidden" asp-for="Status" class="form-control" />
+    </div>
+
+    <br />
+    <button type="button" onclick="submitForm()" class="btn btn-primary">Create</button>
+    <a asp-controller="AirportInfoApi" asp-action="Index">Back to List</a>
+
+</form>
+
+</div>
+<script>
+    function submitForm() {
+        // Create FormData object
+        const formData = new FormData();
+
+        // Append form fields
+        formData.append("AirportName", document.querySelector('[name="AirportName"]').value);
+        formData.append("AirportLocation", document.querySelector('[name="AirportLocation"]').value);
+
+        // Append the image file if it exists
+        const imageFile = document.querySelector('[name="ImagePath"]').files[0];
+        if (imageFile) {
+            formData.append("ImageFile", imageFile);
+        }
+
+        // Send the request with FormData
+        fetch('/AirportInfoApi/Create', {
+            method: 'POST',
+            body: formData  // Let FormData handle Content-Type
+        })
+            .then(response => {
+                if (response.ok) {
+                    window.location.href = '/AirportInfoApi/Index';
+                } else {
+                    console.error('Error:', response.statusText);
+                }
+            })
+            .catch(error => console.error('Fetch error:', error));
+    }
+</script>
+
+@* <script>
+    function submitForm() {
+        const form = document.getElementById('createForm');
+        const formData = new FormData();
+
+        // Append form data
+        formData.append("AirportName", form.querySelector('[name="AirportName"]').value);
+        formData.append("AirportLocation", form.querySelector('[name="AirportLocation"]').value);
+
+        // Append the image file if available
+        const imageFile = document.getElementById('ImagePath').files[0];
+        if (imageFile) {
+            formData.append("ImagePath", imageFile);
+        }
+
+        fetch('/AirportInfoApi/Create', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => {
+            if (response.ok) {
+                window.location.href = '/AirportInfoApi/Index';
+            } else {
+                console.error('Error:', response.statusText);
+            }
+        })
+        .catch(error => console.error('Fetch error:', error));
+    }
+</script> *@

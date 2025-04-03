@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tG4SmmyL6rY=",
+  "success": true,
+  "projectFilePath": "D:\\KrishnaB\\OnTheWay\\ApplicationDomain\\Application.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GMR\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

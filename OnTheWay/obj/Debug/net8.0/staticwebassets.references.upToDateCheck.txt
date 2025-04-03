@@ -1,0 +1,6 @@
+D:\KrishnaB\OnTheWay\OnTheWayWebApiProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\KrishnaB\OnTheWay\OnTheWayWebApiProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\KrishnaB\OnTheWay\OnTheWayWebApiProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\KrishnaB\OnTheWay\OnTheWayWebApiProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\KrishnaB\OnTheWay\OnTheWayWebApiProject\obj\Debug\net8.0\staticwebassets.build.json
+D:\KrishnaB\OnTheWay\OnTheWayWebApiProject\obj\Debug\net8.0\staticwebassets.build.json

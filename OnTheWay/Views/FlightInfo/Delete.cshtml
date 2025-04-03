@@ -1,0 +1,74 @@
+﻿@model Application.Domain.Entities.FlightInfo
+@{
+    ViewData["Title"] = "Confirm Delete";
+}
+<div class="bg-image">
+
+
+    <h2>Confirm Delete</h2>
+    <p class="text-danger">Are you sure you want to delete the following Flight information?</p>
+
+    <form id="deleteForm" method="post" enctype="multipart/form-data">
+        <div>
+            <dl class="dl-horizontal">
+                <dt>Flight Number</dt>
+                <dd>@Model.FlightNumber</dd>
+
+                <dt>Airline Name</dt>
+                <dd>@Model.Airline</dd>
+
+                <dt>Departure From</dt>
+                <dd>@Model.Departure</dd>
+
+                <dt>Arrival To</dt>
+                <dd>@Model.Arrival</dd>
+
+               
+
+            </dl>
+            <dl class="dl-horizontal">
+                <dt>Departure Time</dt>
+                <dd>@Model.DepartureTime</dd>
+
+                <dt>Arrival Time</dt>
+                <dd>@Model.ArrivalTime</dd>
+
+                <dt>Ticket Price</dt>
+                <dd>@Model.Price</dd>
+            </dl>
+
+            <button type="button" onclick="submitForm()" class="btn btn-danger">Yes, Delete</button>
+            <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+<script>
+    function submitForm() {
+        const formData = new FormData();
+
+        // Append form fields
+        formData.append("Id", "@Model.Id");
+        formData.append("FlightNumber", "@Model.FlightNumber");
+        formData.append("Airline", "@Model.Airline");
+        formData.append("Departure", "@Model.Departure");
+        formData.append("Arrival", "@Model.Arrival");
+        formData.append("DepartureTime", "@Model.DepartureTime");
+        formData.append("ArrivalTime", "@Model.ArrivalTime");
+        formData.append("Price", "@Model.Price");
+
+        // Send the request with FormData
+        fetch('/FlightInfo/Delete', {
+            method: 'POST',
+            body: formData,  // Let FormData handle Content-Type
+
+        })
+            .then(response => {
+                if (response.ok) {
+                    window.location.href = '@Url.Action("Index", "FlightInfo")';
+                } else {
+                    console.error('Error:', response.statusText);
+                }
+            })
+            .catch(error => console.error('Fetch error:', error));
+    }
+</script>
